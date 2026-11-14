@@ -27,6 +27,7 @@
 
 ## 범위
 
+- 도구는 Read·Write·Edit·WebSearch·WebFetch와 시각 자료를 여는 명령 하나만 쓴다. 그 밖의 Bash(검사·목록·폴더 만들기·python 등)는 쓰지 않는다. 학습자 화면에 권한 창이 뜨기 때문이다. 파일이 제대로 써졌는지는 Read로 확인한다. Write는 없는 폴더도 만든다.
 - 쓰는 곳은 `learner/` 아래뿐이다. HTML은 `learner/studio/`, 실무 산출물(점검표·규정 초안·계획서)은 `learner/work/`에 Markdown으로 둔다. `learner/work/`의 모든 파일 첫 줄에는 「초안 · 기준일 YYYY-MM-DD · 실제 적용 전 전문가 검토 필요」를 적는다.
 - 다른 go-* 워크스페이스가 깊게 다루는 주제(커리큘럼의 「경계·연결」 줄)가 나오면 지금 흐름에 필요한 만큼만 다루고 그 워크스페이스 이름을 알려 준다. 그 모듈에 경계 줄이 없어도 행선지는 같다: 세금·원천징수·비과세 go-tax, 회계 처리 go-accounting, 인건비 예산·KPI go-control, 보안·개인정보 보호 조치 go-security, AI 도구 규제·AI 평가 go-ai, HRIS go-mis, 통계 분석 go-data-analytics, 컴플라이언스 총론 go-compliance-and-legal, 현장 안전 운영 go-operations, 대화·협상·리더십 go-leadership-negotiation, 스톡옵션·초기 팀 구성 go-startup-agile, OKR go-strategy.
 - `CLAUDE.md`, `tutor/`, `curriculum/`, `.claude/`는 학습자가 이 워크스페이스 자체를 고치자고 명시할 때만 바꾼다.
